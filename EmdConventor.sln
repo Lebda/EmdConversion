@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmdConventor", "EmdConventor\EmdConventor.csproj", "{4DA913A4-507C-4574-BEFD-CE3E2E5C36F9}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "EmdConventor.Web", "http://localhost:54581", "{C63DA35F-96B7-4155-A6CD-85400858F367}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54581"
+		Debug.AspNetCompiler.PhysicalPath = "EmdConventor.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54581\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54581"
+		Release.AspNetCompiler.PhysicalPath = "EmdConventor.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54581\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "EmdConventor.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+		ProjOutputReferences = "{4DA913A4-507C-4574-BEFD-CE3E2E5C36F9}|ClientBin|false;"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XEP_EsaModelData", "XEP_EsaModelData\XEP_EsaModelData.csproj", "{F069A405-D271-4D34-88F4-FE56ED138824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XEP_FileStack", "XEP_FileStack\XEP_FileStack.csproj", "{46452511-8F88-4E91-A8C2-D4B0D33E4323}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XEP_Prism", "XEP_Prism\XEP_Prism.csproj", "{44EE10E7-3D21-45FF-BC0E-2551BD3B6ED5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DA913A4-507C-4574-BEFD-CE3E2E5C36F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DA913A4-507C-4574-BEFD-CE3E2E5C36F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DA913A4-507C-4574-BEFD-CE3E2E5C36F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DA913A4-507C-4574-BEFD-CE3E2E5C36F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C63DA35F-96B7-4155-A6CD-85400858F367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C63DA35F-96B7-4155-A6CD-85400858F367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C63DA35F-96B7-4155-A6CD-85400858F367}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C63DA35F-96B7-4155-A6CD-85400858F367}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F069A405-D271-4D34-88F4-FE56ED138824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F069A405-D271-4D34-88F4-FE56ED138824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F069A405-D271-4D34-88F4-FE56ED138824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F069A405-D271-4D34-88F4-FE56ED138824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46452511-8F88-4E91-A8C2-D4B0D33E4323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46452511-8F88-4E91-A8C2-D4B0D33E4323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46452511-8F88-4E91-A8C2-D4B0D33E4323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46452511-8F88-4E91-A8C2-D4B0D33E4323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44EE10E7-3D21-45FF-BC0E-2551BD3B6ED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44EE10E7-3D21-45FF-BC0E-2551BD3B6ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44EE10E7-3D21-45FF-BC0E-2551BD3B6ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44EE10E7-3D21-45FF-BC0E-2551BD3B6ED5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
